@@ -28,8 +28,3 @@ The goal of this app is to practice working with the DOM, handling events, and s
 - Clear all tasks  
 
 ---
-
-## ⚙️ How to run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
