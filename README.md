@@ -1,4 +1,4 @@
-p# 📝 Todo App (Practice Project)
+📝 Todo App (Practice Project)
 
 This is a small **personal project** I made while learning **HTML, JavaScript, and Tailwind CSS**.  
 The goal of this app is to practice working with the DOM, handling events, and styling with Tailwind.  
