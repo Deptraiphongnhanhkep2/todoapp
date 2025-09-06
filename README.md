@@ -18,7 +18,6 @@ The goal of this app is to practice working with the DOM, handling events, and s
 ## 🚀 Live Demo
 👉 [Check it out here](https://deptraiphongnhanhkep2.github.io/todo-app)  
 
-*(Replace with your GitHub Pages link)*
 
 ---
 
