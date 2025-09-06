@@ -15,7 +15,7 @@ function addTodo(text) {
   // done button
   const doneBtn = document.createElement("button");
   doneBtn.textContent = "Done";
-  doneBtn.classList = "bg-green-500 text-white px-2 py-1 rounded";
+  doneBtn.classList = "bg-green-500 text-white px-2 py-1 rounded hover:bg-green-600 cursor-pointer";
   doneBtn.onclick = () => {
     span.classList.toggle("line-through");
     span.classList.toggle("text-gray-500");
@@ -23,7 +23,7 @@ function addTodo(text) {
   // delete button
   const delBtn = document.createElement("button");
   delBtn.textContent = "X";
-  delBtn.classList = "bg-red-500 text-white px-2 py-1 rounded";
+  delBtn.classList = "bg-red-500 text-white px-2 py-1 rounded hover:bg-red-600 cursor-pointer";
   delBtn.onclick = () => {
     li.remove();
   };
