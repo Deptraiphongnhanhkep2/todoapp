@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-App</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <!-- background -center  -->
+  <body
+    class="bg-pink-200 flex flex-col justify-center items-center min-h-screen"
+  >
+    <!-- container -->
+    <div class="border border-white rounded-lg p-10 shadow-lg bg-white">
+      <!-- header + clear all button -->
+      <div class="flex items-center justify-between mb-4">
+        <h1 class="font-bold p-5 text-xl">Todo-App</h1>
+        <button
+          class="px-3 bg-gray-300 rounded py-2 text-sm font-bold hover:bg-red-500 cursor-pointer"
+          id="clear-all"
+        >
+          Clear All
+        </button>
+      </div>
+      <!-- input form -->
+      <form id="todo-form" class="flex space-x-2 mb-4">
+        <input
+          class="border rounded-2xl text-blue-500 pl-3 pr-10 py-2 flex-1 focus:outline-none focus:ring-green-500 focus:ring-2"
+          type="text"
+          name="new-task"
+          id="new-task"
+          placeholder="Add a new task.."
+        />
+        <button
+          class="border font-bold rounded-3xl px-3 bg-black text-blue-500 cursor-pointer hover:bg-green-500"
+          type="submit"
+        >
+          +
+        </button>
+      </form>
+      <!-- task list -->
+      <ul id="todo-list" class="space-y-2"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
